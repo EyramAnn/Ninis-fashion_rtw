@@ -1,29 +1,139 @@
 * {
     margin: 0;
-
+    border: 0;
 }
 
+.libre-baskerville-regular {
+  font-family: "Libre Baskerville", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+
+.montserrat {
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.roboto-regular {
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.roboto-regular-italic {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-style: italic;
+}
+
+
 #logo {
-    width: 250px; 
-    height: 100px;  
+      width: 70px;
+      margin-top: -30px ;
 }
 
 nav {
     display: flex;
     justify-content: space-between;
-    padding: 20px 60px;
-    /* position: fixed;
-    width: 100vw;   */
+    align-items: center;
+    padding: 30px 30px 5px;
+    width: 100vw;  
+    text-transform: uppercase; 
+    background-color: black;
+    color: white;
 }
 
 #nav-links {
     display: flex;
-    column-gap: 40px;
+    column-gap: 110px;
+    justify-content: space-between;
 
 }
 nav button {
-    background-color: white;
-    padding: 10px 20px;
-    height: fit-content;
-    border: 1px solid rgb(209, 72, 48);
+  
+    width: 50px;
+    padding: 20px;
+    border: 1px solid black;
+}
+
+
+#hero {
+    background-image: url(../assets/images/8308.jpg);
+    width: 100vw;
+    height: 120vh;
+    margin: 0;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  
+#hero-overlay {
+    background-color: rgba(49, 48, 48, 0.5);
+    width: 100%;
+    height: 100%;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    row-gap: 20px;
+}
+  
+header {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+   
+.rtw {
+  font-size: 40px;
+  padding-bottom: 20px;
+  }
+  
+.nini {
+  width: 950px;
+    font-size: 17px;
+    line-height: 1.6;
+  }
+
+
+
+.more{
+  margin-left: 30px;
+   padding: 15px;
+   border-radius: 5px;
+   background-color: white;
+   color: black;
+}
+   
+.more:hover {
+     background-color:red;
+     color: white; 
+
+}
+
+#quote {
+  display: flex;
+  flex-direction: column;
+  height: 40vh;
+  padding: 80px;
+}
+
+#quote span:nth-child(1) {
+  font-size: 33px;
+  font-weight: lighter;
+  letter-spacing: 1px;
+  line-height: 2;
+  text-align: center;
+  padding-bottom: 13px;
+
+}
+
+#quote span:nth-child(2) {
+  font-size: 28px;
+  font-weight: bolder;
+  letter-spacing: 1px;
+  text-align: center;
 }
