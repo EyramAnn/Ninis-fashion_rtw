@@ -71,7 +71,7 @@ nav {
 
 #nav-links span:hover {
   cursor: pointer;
-  color: rgb(96, 233, 69);
+  color: #ec5d10;;
   transition: .3s ease;
 
 }
@@ -130,7 +130,6 @@ header {
    
 .more:hover {
      background-color:#ec5d10;
-      /* #FDC918; */
      color: white; 
 
 }
@@ -619,31 +618,65 @@ tr:nth-child(1) {
 
 #address {
   background-color: #292829;
+  display: flex;
   
 
 }
-#address img {
 
-}
-
-#address span:nth-child(1){
-  align-items: center;
-  font-size: 20px;
-}
 
 
 #subscribe {
-  grid-row: 1/2;
-
-  
+  padding-top: 75px;  
+ 
 }
-fname {
-  width: 100px;
+
+
+
+
+
+#address span:nth-child(1){
+  margin-left:200px;
+  font-size: 18px;
+  color:  #999595;
+}
+
+
+#fname, #email {
+  margin-top: 20px;
+  width: 280px;
+  height: 35px;
+  margin-left: 20px;
+  font-size: 16px;
+
+}
+
+#submit {
+  width: 190px;
+  height: 35px;
+  margin-left: 190px;
+  font-size: 16px;
+  margin-bottom: 30px;
+  border: none;
+}
+
+#submit:hover{
+  cursor: pointer;
+  background-color:#ec5d10;
+  color: white; 
+  transition: .3s ease;
 }
 
 #policies {
-  grid-row: 2/3;
-  position: absolute;
+  margin-left: 200px;
+  padding-top: 75px;  
   color: #999595;
 }
 
+#icons {
+  color: white;
+  display: flex;
+  padding-top: 140px;
+  margin-left:  200px;
+ 
+  gap: 20px;
+}
